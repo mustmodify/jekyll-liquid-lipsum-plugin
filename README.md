@@ -45,13 +45,12 @@ The tag allows up to three numbers as parameters:
 
 Combining this, you can have the following situations:
 
-Usage                                     | Result
-:-----------------------------------------|:-----------------------------------------------
-{%raw%}``{% lipsum %}``{%endraw%}         | 1 paragraph. Random length between 10 and 30
-{%raw%}``{% lipsum n %}``{%endraw%}       | **_n_** paragraphs. Random length between 10 and 30
-{%raw%}``{% lipsum n l %}``{%endraw%}     | **_n_** paragraphs. Exactly a length of **_l_**
-{%raw%}``{% lipsum n l1 l2 %}``{%endraw%} | **_n_** paragraphs. Random length between **_l1_** and **_l2_**
-{: .centered title="Use cases of the tag" }
+Usage                    | Result
+:------------------------|:----------------------------------------------------------------
+``{% lipsum %}``         | 1 paragraph. Random length between 10 and 30
+``{% lipsum n %}``       | **_n_** paragraphs. Random length between 10 and 30
+``{% lipsum n l %}``     | **_n_** paragraphs. Exactly a length of **_l_**
+``{% lipsum n l1 l2 %}`` | **_n_** paragraphs. Random length between **_l1_** and **_l2_**
 
 You can improve or modify the behaviour of this liquid tag by simply editing its source code. There you can change the sentence parts to your wishes by simply editing the three arrays of strings from which the generator takes the text parts.
 
