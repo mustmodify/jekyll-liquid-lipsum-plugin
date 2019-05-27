@@ -8,10 +8,13 @@ Installation
 
 Just copy the `liquid_lipsum.rb` file to your `_plugins` folder.
 
+**About GitHub Pages**: GitHub Pages [ignores most plugins](https://github.com/jekyll/jekyll/blob/8dcb14c5825a9cbbb45842220b8db151aee94756/docs/_docs/plugins/installation.md#plugins-on-github-pages), including this one. You should not use this plugin with GitHub Pages [unless you plan to pre-generate your site](https://stackoverflow.com/questions/53215356/jekyll-how-to-use-custom-plugins-with-github-pages).
+
 Requirements
 ============
 
 None. :)
+
 
 Configuration
 =============
